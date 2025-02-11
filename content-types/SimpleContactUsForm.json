@@ -1,0 +1,122 @@
+{
+  "clazz" : "FormContentType",
+  "id" : "c4c18a1b481aa2652bea222a743147b2",
+  "name" : "Simple Contact Us Form",
+  "variable" : "SimpleContactUsForm",
+  "modDate" : "2025-01-30T15:06:07.000+00:00",
+  "iDate" : "2025-01-29T22:06:34.000+00:00",
+  "host" : "484f5d7cbd1524bf3ebf383a4812bbc3",
+  "folder" : "SYSTEM_FOLDER",
+  "siteName" : "sketchup-help.dotcms.com",
+  "folderPath" : "/",
+  "icon" : "dynamic_form",
+  "baseType" : "FORM",
+  "fields" : [ {
+    "clazz" : "RowField",
+    "id" : "b9252535c57dd1a8fb8192c4d813199a",
+    "modDate" : "2025-01-29T22:10:21.000+00:00",
+    "name" : "fields-0",
+    "fieldType" : "Row",
+    "fieldTypeLabel" : "Row",
+    "iDate" : "2025-01-29T22:06:34.000+00:00",
+    "variable" : "rowField",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ColumnField",
+    "id" : "ab8227a58dd742cc03313c498ff6b6e8",
+    "modDate" : "2025-01-29T22:10:21.000+00:00",
+    "name" : "fields-1",
+    "sortOrder" : 1,
+    "fieldType" : "Column",
+    "fieldTypeLabel" : "Column",
+    "iDate" : "2025-01-29T22:06:34.000+00:00",
+    "variable" : "columnField",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ConstantField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "504a8b6c4aeda38bbc30ae0c118e36fd",
+    "modDate" : "2025-01-29T22:11:54.000+00:00",
+    "name" : "Form Email",
+    "variable" : "formEmail",
+    "sortOrder" : 2,
+    "values" : "mbernard@wearebarbarian.com",
+    "fieldType" : "Constant-Field",
+    "fieldTypeLabel" : "Constant Field",
+    "iDate" : "2025-01-29T22:06:34.000+00:00",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ConstantField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "0999b6ee81536492bd2c79bbee067d4e",
+    "modDate" : "2025-01-30T15:06:07.000+00:00",
+    "name" : "Success Callback",
+    "variable" : "formSuccessCallback",
+    "sortOrder" : 3,
+    "values" : "window.location='/customer-support/thank-you",
+    "fieldType" : "Constant-Field",
+    "fieldTypeLabel" : "Constant Field",
+    "iDate" : "2025-01-29T22:06:34.000+00:00",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "HostFolderField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "ca470cd16fa8ede69c123a58e3e44f3f",
+    "modDate" : "2025-01-29T22:06:34.000+00:00",
+    "name" : "Form Host",
+    "variable" : "formHost",
+    "sortOrder" : 4,
+    "fieldType" : "Host-Folder",
+    "fieldTypeLabel" : "Site or Folder",
+    "iDate" : "2025-01-29T22:06:34.000+00:00",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "TextField",
+    "id" : "2a4f1df597545c5a29f145118ac4ce96",
+    "modDate" : "2025-01-29T22:10:21.000+00:00",
+    "name" : "Name",
+    "variable" : "name",
+    "sortOrder" : 5,
+    "fieldType" : "Text",
+    "fieldTypeLabel" : "Text",
+    "iDate" : "2025-01-29T22:10:21.000+00:00",
+    "dataType" : "TEXT"
+  }, {
+    "clazz" : "TextField",
+    "id" : "5dabfeb94aa0f8e78723ed4bc375ee3d",
+    "modDate" : "2025-01-29T22:10:47.000+00:00",
+    "name" : "Email",
+    "variable" : "email",
+    "sortOrder" : 6,
+    "regexCheck" : "^([a-zA-Z0-9]+[a-zA-Z0-9._%+-]*@(?:[a-zA-Z0-9-]+.)+[a-zA-Z]{2,4})$",
+    "fieldType" : "Text",
+    "fieldTypeLabel" : "Text",
+    "iDate" : "2025-01-29T22:10:47.000+00:00",
+    "dataType" : "TEXT"
+  }, {
+    "clazz" : "TextAreaField",
+    "id" : "aeb7b6dbed0c1e80f49fb2a7f5a96a25",
+    "modDate" : "2025-01-29T22:10:56.000+00:00",
+    "name" : "Message",
+    "variable" : "message",
+    "sortOrder" : 7,
+    "fieldType" : "Textarea",
+    "fieldTypeLabel" : "Textarea",
+    "iDate" : "2025-01-29T22:10:56.000+00:00",
+    "dataType" : "LONG_TEXT"
+  } ],
+  "metadata" : {
+    "CONTENT_EDITOR2_ENABLED" : false
+  },
+  "workflows" : [ {
+    "id" : "d61a59e1-a49c-46f2-a929-db2b4bfa88b2",
+    "variableName" : "SystemWorkflow"
+  } ],
+  "systemActionMappings" : {
+    "NEW" : "ceca71a0-deee-4999-bd47-b01baa1bcfc8"
+  },
+  "dotCMSObjectType" : "ContentType"
+}

@@ -1,0 +1,100 @@
+{
+  "clazz" : "FormContentType",
+  "id" : "39b49f689752094bcd7ecdbef31428fe",
+  "name" : "Customer Support Contact Us Form",
+  "variable" : "CustomerSupportContactUsForm",
+  "modDate" : "2025-01-31T17:36:50.000+00:00",
+  "iDate" : "2025-01-31T16:58:33.000+00:00",
+  "host" : "484f5d7cbd1524bf3ebf383a4812bbc3",
+  "folder" : "SYSTEM_FOLDER",
+  "siteName" : "sketchup-help.dotcms.com",
+  "folderPath" : "/",
+  "icon" : "contact_support",
+  "baseType" : "FORM",
+  "fields" : [ {
+    "clazz" : "RowField",
+    "id" : "5936ffba0fd2ea8f5e6b67fe7f2f3c44",
+    "modDate" : "2025-01-31T16:59:34.000+00:00",
+    "name" : "fields-0",
+    "fieldType" : "Row",
+    "fieldTypeLabel" : "Row",
+    "iDate" : "2025-01-31T16:58:33.000+00:00",
+    "variable" : "rowField",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ColumnField",
+    "id" : "d41b07e90abbd54dd53ee6cd6da14d90",
+    "modDate" : "2025-01-31T16:59:34.000+00:00",
+    "name" : "fields-1",
+    "sortOrder" : 1,
+    "fieldType" : "Column",
+    "fieldTypeLabel" : "Column",
+    "iDate" : "2025-01-31T16:58:33.000+00:00",
+    "variable" : "columnField",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ConstantField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "02760976c050b034d51fc31dcc6123a1",
+    "modDate" : "2025-01-31T16:59:10.000+00:00",
+    "name" : "Form Email",
+    "variable" : "formEmail",
+    "sortOrder" : 2,
+    "values" : "deputyb@celebrityzombie.com",
+    "fieldType" : "Constant-Field",
+    "fieldTypeLabel" : "Constant Field",
+    "iDate" : "2025-01-31T16:58:33.000+00:00",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ConstantField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "d419f162d2e147e8dcef5ffe868feb4e",
+    "modDate" : "2025-01-31T16:58:52.000+00:00",
+    "name" : "Success Callback",
+    "variable" : "formSuccessCallback",
+    "sortOrder" : 3,
+    "values" : "// contentlet is an object\r\n// e.g. contentlet.inode, contentlet.firstName\r\n\r\nwindow.location='/customer-support/thank-you?id=' + contentlet.identifier",
+    "fieldType" : "Constant-Field",
+    "fieldTypeLabel" : "Constant Field",
+    "iDate" : "2025-01-31T16:58:33.000+00:00",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "HostFolderField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "f9840ea915ffe2af98cdfec47b643711",
+    "modDate" : "2025-01-31T17:36:50.000+00:00",
+    "name" : "sketchup-help.dotcms.com",
+    "variable" : "formHost",
+    "sortOrder" : 4,
+    "fieldType" : "Host-Folder",
+    "fieldTypeLabel" : "Site or Folder",
+    "iDate" : "2025-01-31T16:58:33.000+00:00",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "TextField",
+    "id" : "d6a8371b3c566267eb39fd8ef99fd67e",
+    "modDate" : "2025-01-31T16:59:34.000+00:00",
+    "name" : "Name",
+    "variable" : "name",
+    "required" : true,
+    "sortOrder" : 5,
+    "fieldType" : "Text",
+    "fieldTypeLabel" : "Text",
+    "iDate" : "2025-01-31T16:59:34.000+00:00",
+    "dataType" : "TEXT"
+  } ],
+  "metadata" : {
+    "CONTENT_EDITOR2_ENABLED" : false
+  },
+  "workflows" : [ {
+    "id" : "d61a59e1-a49c-46f2-a929-db2b4bfa88b2",
+    "variableName" : "SystemWorkflow"
+  } ],
+  "systemActionMappings" : {
+    "NEW" : "b9d89c80-3d88-4311-8365-187323c96436"
+  },
+  "dotCMSObjectType" : "ContentType"
+}
